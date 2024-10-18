@@ -1,0 +1,18 @@
+{% extends 'layouts/admin_layout.html' %}
+
+{% block content %}
+<div class="text-sky-800 ml-5 bg-blue-300">
+    <h1>Test</h1>
+    <p>This is a test page</p>
+    <a href="{% url 'admin:index' %}">Go to admin</a>
+
+</div>
+{% endblock %}
+
+{% block title %}
+Test
+{% endblock %}
+
+{% block header %}
+<h1>Test Header</h1>
+{% endblock %}
